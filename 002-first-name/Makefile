@@ -2,7 +2,7 @@ CC = g++
 CFLAGS = -Wall -Werror -D_GLIBCXX_DEBUG -std=c++11 -g
 COMPILE = $(CC) $(CFLAGS) -c
 OBJFILES := $(patsubst %.cpp,%.o,$(wildcard *.cpp))
-PROG_NAME = HelloWorld
+PROG_NAME = FirstName
 
 all: myprog
 
